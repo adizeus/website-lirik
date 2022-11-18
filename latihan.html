@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran Siswa</title>
+</head>
+<body>
+ <form action="#" method="GET">
+   <fieldset>
+    <legend><h1>Formulir Pendaftaran Siswa</h1></legend>
+    <table>
+        <tr>
+            <td>Nama Calon Siswa</td>
+            <td>:</td>
+            <td><input type="nama" name="nama" required/><br/></td>
+        </tr>
+        <tr>
+            <td>Tempat/Tanggal Lahir</td>
+            <td>:</td>
+            <td><input type="nama" name="TempatLahir"/> <input type="date" name="tanggal"/></td>
+        </tr>
+        <tr>
+            <td>Agama</td>
+            <td>:</td>
+            <td><select name="agama"> 
+            <option value="islam"> islam</option>
+            <option value="kristen"> kristen</option>
+            <option value="katolik"> katolik</option>
+            <option value="budha"> Budha</option>
+            <option value="hindu"> Hindu</option> 
+            </select> </td>
+        </tr>
+        <tr>
+            <td>Alamat</td>
+            <td>:</td>
+            <td><textarea name="komentar" rows="4" cols="50"></textarea></td>
+        </tr>
+
+        <tr>
+            <td>No telp/Hp</td>
+            <td>:</td>
+            <td><input type="number" name="number"/></td>
+        </tr>
+        <tr>
+            <td>Jenis kelamin</td>
+            <td>:</td>
+            <td><input type="radio" name="jeniskelamin"/>pria
+            <input type="radio" name="jeniskelamin"/>wanita</td>
+        </tr>
+        <tr>
+            <td>hobi</td>
+            <td>:</td>
+            <td><input type="checkbox" name="hobi"/>membaca </input>
+                <input type="checkbox" name="hobi"/>menulis </input>
+                <input type="checkbox" name="hobi"/>olahraga </input></td>
+        </tr>
+        <tr>
+            <td>pas foto</td>
+            <td>:</td>
+            <td><input type="file" name="foto"/></td>
+        </tr>
+        <tr>
+            <td><input type="submit" name="submit" value="SUBMIT"/></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+   </fieldset>
+    </form>
+</body>
+</html>
